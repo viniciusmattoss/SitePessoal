@@ -1,9 +1,88 @@
-h5:hover{
-    
-    text-decoration: underline;
-}
-
-a{
+/*CONFIGURAÇÕES PADRÕES*/
+body, html {
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+  }
+  
+  a {
     text-decoration: none;
-    color: white;
-}
+  }
+  
+  /* Estilos para caixas */
+  .caixa1,
+  .caixa2,
+  .caixa3,
+  .caixa4,
+  .caixa5,
+  .caixa6 {
+    position: relative;
+    height: 100vh; /* Usar vh (viewport height) para ocupar toda a tela */
+    opacity: 0.7;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .caixa1 {
+    background-image: url("IMG/imagem1.jpg");
+  }
+  
+  .caixa2 {
+    background-image: url("IMG/imagem2.png");
+  }
+  
+  .caixa3 {
+    background-image: url("IMG/imagem3.jpg");
+  }
+  
+  .caixa4 {
+    background-image: url("IMG/imagem4.jpg");
+  }
+  
+  .caixa5 {
+    background-image: url("IMG/imagem5.jpg");
+  }
+  
+  .caixa6 {
+    background-image: url("IMG/imagem6.jpg");
+  }
+  
+  /* Estilos para títulos nas caixas */
+  .conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .conteudo-titulo .titulo {
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+  
+  /* Estilos para o conteúdo principal */
+  .conteudo {
+    background-color: white;
+    padding: 80px;
+    color: #777;
+    text-align: center;
+  }
+  
+  h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
