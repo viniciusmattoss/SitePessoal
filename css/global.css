@@ -1,0 +1,36 @@
+header{
+    background-color: #010409;
+}
+
+footer{
+    background-color: #0D1117;
+}
+
+/* Estilo para o botão de alternância de modo */
+
+/* Estilo para o modo claro */
+.modo-claro {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Estilo para o modo escuro */
+.modo-escuro {
+    background-color: #0D1117;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    ul,h3{
+        text-align: center;
+        list-style: none;
+        margin-right: 50px;
+    }
+
+    header{
+        text-align: center;
+    }
+}
+

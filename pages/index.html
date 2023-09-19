@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="../css/estilo.css">
   <title>Site Pessoal</title>
 </head>
-<body>
+<body class="modo-escuro">
+
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Vinícius Mattos</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                      <a class="nav-link active" href="projetos.html">Projetos</a>
+                  </div>
+              </div>
+          </div>
+      </nav>
+  </header>
+
   <div class="caixa1">
       <div class="conteudo-titulo">
           <span class="titulo"> Bem-Vindos </span>
@@ -27,7 +46,7 @@
   <div class="caixa2">
       <div class="conteudo-titulo">
         <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn btn-primary titulo" data-bs-toggle="modal" data-bs-target="#exampleModal">
     Meu Hobby
   </button>
   
@@ -36,7 +55,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Meu hobby</h5>
+          <h5 class="modal-title" id="tituloModalHobby"><h3>Meu hobby</h3></h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
          <!-- conteudo primeiro modal -->
@@ -60,35 +79,35 @@
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
                   </div>
                   <div class="carousel-inner row col-md-6">
-                    <div class="carousel-item active Carusel">
-                      <img src="IMG/Sava01.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-item active">
+                      <img src="../img/Sava01.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="IMG/Sava02.jpg" class="d-block w-100" alt="...">
+                      <img src="../img/Sava02.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="IMG/Sava03.jpg" class="d-block w-100" alt="...">
+                      <img src="../img/Sava03.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="IMG/sava04.jpg" class="d-block w-100" alt="...">
+                      <img src="../img/sava04.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="IMG/Sava05.jpg" class="d-block w-100" alt="...">
+                      <img src="../img/Sava05.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="IMG/Sava06.jpg" class="d-block w-100" alt="...">
+                      <img src="../img/Sava06.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="IMG/Sava07.jpg" class="d-block w-100" alt="...">
+                      <img src="../img/Sava07.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="IMG/Sava08.jpg" class="d-block w-100" alt="...">
+                      <img src="../img/Sava08.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="IMG/Sava09.jpg" class="d-block w-100" alt="...">
+                      <img src="../img/Sava09.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="IMG/Sava10.jpg" class="d-block w-100" alt="...">
+                      <img src="../img/Sava10.jpg" class="d-block w-100" alt="...">
                     </div>
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -123,10 +142,47 @@
       </div>
   </div>
   <div class="caixa3">
-      <div class="conteudo-titulo">
-          <span class="titulo"> passeios a beira-mar </span>
+    <div class="conteudo-titulo">
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary titulo" data-bs-toggle="modal" data-bs-target="#meusprojetos">
+  Meus projetos
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="meusprojetos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="tituloModalHobby"><h3>Meus projetos</h3></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+       <!-- conteudo primeiro modal -->
+      <div class="modal-body">
+        <div class="d-flex gap-5 flex-wrap justify-content-center mt-5 mb-5">
+          <div class="card">
+            <img class="card-img-top" src="../img/fatec_vagas/fv3.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Fatec Vagas</h5>
+              <p class="card-text">Projeto desenvolvido no Primeiro e segundo semestre da Faculdade</p>
+              <a href="fatec_vagas.html" class="btn btn-primary">Ver mais</a>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img class="card-img-top" src="../img/estacionaMais/Screenshot_1.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">EstacionaMais</h5>
+              <p class="card-text">Projeto desenvolvido no terceiro e quarto semestre da faculdade</p>
+              <a href="estacionaMais.html" class="btn btn-primary">Ver mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+    </div>
+</div>
   <div class="caixa4">
       <div class="conteudo-titulo">
           <span class="titulo"> Passeios de motocicletas </span>

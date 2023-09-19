@@ -26,27 +26,51 @@ body, html {
   }
   
   .caixa1 {
-    background-image: url("IMG/imagem1.jpg");
+    background-image: url("../img/imagem1.jpg");
+    /* Set a specific height */
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .caixa2 {
-    background-image: url("IMG/imagem2.png");
+    background-image: url("../img/imagem2.png");
+    /* Set a specific height */
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .caixa3 {
-    background-image: url("IMG/imagem3.jpg");
+    background-image: url("../img/imagem3.jpg");
+    /* Set a specific height */
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .caixa4 {
-    background-image: url("IMG/imagem4.jpg");
+    background-image: url("../img/imagem4.jpg");
   }
   
   .caixa5 {
-    background-image: url("IMG/imagem5.jpg");
+    background-image: url("../img/imagem5.jpg");
   }
   
   .caixa6 {
-    background-image: url("IMG/imagem6.jpg");
+    background-image: url("../img/imagem6.jpg");
   }
   
   /* Estilos para títulos nas caixas */
@@ -93,7 +117,7 @@ body, html {
 
 /* Adjust modal height */
 .modal-content {
-  max-height: 80vh; /* You can change the percentage or use pixels (e.g., 500px) */
+  max-height: 90vh; /* You can change the percentage or use pixels (e.g., 500px) */
   overflow-y: auto; /* Add scrollbar if the content exceeds the max height */
 }
 
@@ -105,11 +129,10 @@ body, html {
   gap: 0.5em;
 }
 
-.carusel{
-  /* Reduzir o tamanho da imagem dentro do modal */
-  max-width: 10%; /* Ajusta a largura máxima da imagem para ocupar o espaço disponível no modal */
-  height: auto; /* Mantém a proporção original da imagem */
+.titulo{
+  border-color: red;
 }
 
-
-  
+.card{
+  width: 30em;
+}
